@@ -1,7 +1,7 @@
-#Introduction
+# Introduction
 A great use for parallel programming is identical operations on large arrays of numbers.
 
-#Requirements
+# Requirements
 1. Pick an array size to do the arithmetic on. Don't pick something too huge, as your machine may not allow you to use that much memory. Don't pick something too small, as the overhead of using threading might dominate the parallelism gains.
 
 2. Using OpenMP, pairwise multiply two large floating-point arrays, putting the results in another array.
@@ -35,7 +35,7 @@ What speedup, S, are you seeing when you move from 1 thread to 4 threads?
    ⋅⋅4. Why do you think it is behaving this way?
    ⋅⋅5. What was your Parallel Fraction, Fp?
 
-#The main Program
+# The main Program
 Your main program would then look something like this:
 ```c++
 #include <omp.h>
@@ -92,7 +92,7 @@ main( )
 }
 ```
 
-#Grading:
+# Grading:
 
 | Feature                               | Points  |
 | ------------------------------------- |:-------:|
