@@ -29,11 +29,11 @@ What speedup, S, are you seeing when you move from 1 thread to 4 threads?
    Don't worry what this means just yet. This will become more meaningful soon.
 
 8. Your written commentary (turned in as a PDF file) should include:
-   ⋅⋅1. Tell what machine you ran this on
-   ⋅⋅2. What performance results did you get?
-   ⋅⋅3. What was your 4-thread-to-one-thread speedup?
-   ⋅⋅4. Why do you think it is behaving this way?
-   ⋅⋅5. What was your Parallel Fraction, Fp?
+⋅⋅1. Tell what machine you ran this on
+⋅⋅2. What performance results did you get?
+⋅⋅3. What was your 4-thread-to-one-thread speedup?
+⋅⋅4. Why do you think it is behaving this way?
+⋅⋅5. What was your Parallel Fraction, Fp?
 
 # The main Program
 Your main program would then look something like this:
