@@ -3,8 +3,8 @@
 #include <math.h>
 
 #define NUMT	         4
-#define ARRAYSIZE      10000
-#define NUMTRIES       8
+#define ARRAYSIZE      100000
+#define NUMTRIES       16
 
 float A[ARRAYSIZE];
 float B[ARRAYSIZE];
@@ -43,8 +43,8 @@ int main( )
    }
 
    double avgMegaMults = sumMegaMults/(double)NUMTRIES;
-   printf( "\tPeak Performance = %8.2lf MegaMults/Sec\n", maxMegaMults );
-   printf( "\tAverage Performance = %8.2lf MegaMults/Sec\n", avgMegaMults );
+   printf( "\tPeak Performance \t= %8.2lf MegaMults/Sec\n", maxMegaMults );
+   printf( "\tAverage Performance \t= %8.2lf MegaMults/Sec\n", avgMegaMults );
 
    double singleThreadSpeed = maxMegaMults;
 
@@ -74,8 +74,8 @@ int main( )
    }
 
    avgMegaMults = sumMegaMults/(double)NUMTRIES;
-   printf( "\tPeak Performance = %8.2lf MegaMults/Sec\n", maxMegaMults );
-   printf( "\tAverage Performance = %8.2lf MegaMults/Sec\n", avgMegaMults );
+   printf( "\tPeak Performance \t= %8.2lf MegaMults/Sec\n", maxMegaMults );
+   printf( "\tAverage Performance \t= %8.2lf MegaMults/Sec\n", avgMegaMults );
 
    double multipleThreadSpeed = maxMegaMults;
 
